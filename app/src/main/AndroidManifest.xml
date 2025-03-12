@@ -18,6 +18,12 @@
         android:theme="@style/Theme.UnitApp"
         tools:targetApi="31">
         <activity
+            android:name=".DemoConstraintLayout"
+            android:exported="false" />
+        <activity
+            android:name=".AbsoluteDemoActivity"
+            android:exported="false" />
+        <activity
             android:name=".TableDemoActivity"
             android:exported="false" />
         <activity
