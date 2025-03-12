@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:stretchColumns="1"
+    tools:context=".TableDemoActivity">
+
+    <TableRow>
+
+        <TextView
+            android:layout_span="2"
+            android:gravity="center"
+            android:text="Welcome back!"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="Email" />
+
+        <EditText android:hint="Enter Email" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="Password" />
+
+        <EditText android:hint="Enter password" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:layout_column="1"
+            android:background="@android:color/transparent"
+            android:gravity="end"
+            android:text="Forgot Password?"
+            android:textColor="@color/black" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:layout_weight="1"
+            android:text="Login" />
+    </TableRow>
+</TableLayout>
