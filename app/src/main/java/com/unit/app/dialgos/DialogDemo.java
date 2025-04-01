@@ -1,4 +1,4 @@
-package com.unit.app;
+package com.unit.app.dialgos;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -16,7 +16,7 @@ public class DialogDemo extends DialogFragment {
     @NonNull
     @Override
     public Dialog onCreateDialog(@Nullable Bundle savedInstanceState) {
-        AlertDialog.Builder dialog = new AlertDialog.Builder();
+        AlertDialog.Builder dialog = new AlertDialog.Builder(getActivity());
 
         dialog.setTitle("Exit App?");
         dialog.setMessage("Are you sure you want to exit this app? You will lose all fo your data");

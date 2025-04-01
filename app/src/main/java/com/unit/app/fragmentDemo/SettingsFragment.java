@@ -1,4 +1,4 @@
-package com.unit.app.merofragemnts;
+package com.unit.app.fragmentDemo;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

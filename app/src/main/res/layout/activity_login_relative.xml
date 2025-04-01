@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/dg_camera"
     android:padding="16dp"
-    tools:context=".LoginRelativeActivity">
+    tools:context=".layouts.LoginRelativeActivity">
 
     <TextView
         android:id="@+id/tv_welcome"

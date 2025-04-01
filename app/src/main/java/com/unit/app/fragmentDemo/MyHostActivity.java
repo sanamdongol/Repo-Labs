@@ -1,4 +1,4 @@
-package com.unit.app;
+package com.unit.app.fragmentDemo;
 
 import android.os.Bundle;
 import android.view.View;
@@ -11,10 +11,7 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.unit.app.merofragemnts.HomeFragment;
-import com.unit.app.merofragemnts.ProfileFragment;
-import com.unit.app.merofragemnts.SettingsFragment;
-import com.unit.app.merofragemnts.ShortsFragment;
+import com.unit.app.R;
 
 public class MyHostActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.unit.app;
+package com.unit.app.dialgos;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -11,6 +11,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import com.unit.app.R;
 
 public class ShowDialogActivity extends AppCompatActivity {
 

@@ -14,7 +14,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.unit.app.merofragemnts.MyAdapter;
+import com.unit.app.fragmentDemo.MyAdapter;
 
 public class HomeActivity extends AppCompatActivity {
 

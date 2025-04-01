@@ -1,4 +1,4 @@
-package com.unit.app;
+package com.unit.app.dialgos;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -8,6 +8,9 @@ import android.widget.Button;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.unit.app.FoodListener;
+import com.unit.app.R;
 
 public class MyDialogsActivity extends AppCompatActivity implements FoodListener {
 

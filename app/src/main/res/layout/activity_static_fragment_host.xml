@@ -6,16 +6,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".StaticFragmentHostActivity">
+    tools:context=".fragmentDemo.StaticFragmentHostActivity">
 
 
     <fragment
-        android:name="com.unit.app.merofragemnts.ProfileFragment"
+        android:name="com.unit.app.fragmentDemo.ProfileFragment"
         android:layout_width="200dp"
         android:layout_height="400dp"/>
 
     <fragment
-        android:name="com.unit.app.merofragemnts.HomeFragment"
+        android:name="com.unit.app.fragmentDemo.HomeFragment"
         android:layout_marginTop="30dp"
         android:layout_width="200dp"
         android:layout_height="200dp"/>
